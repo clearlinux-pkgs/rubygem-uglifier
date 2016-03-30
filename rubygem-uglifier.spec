@@ -4,7 +4,7 @@
 #
 Name     : rubygem-uglifier
 Version  : 2.7.2
-Release  : 5
+Release  : 6
 URL      : https://rubygems.org/downloads/uglifier-2.7.2.gem
 Source0  : https://rubygems.org/downloads/uglifier-2.7.2.gem
 Summary  : No detailed summary available
@@ -52,57 +52,29 @@ fi
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/uglifier-2.7.2.gem
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/cdesc-Uglifier.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/comment_options-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/comment_setting-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/compile-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/compile-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/compile_with_map-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/compile_with_map-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/compress-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/compressor_options-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/conditional_option-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/enclose_options-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/encode_regexp-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/mangle_options-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/output_options-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/parse_options-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/read_source-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/run_uglifyjs-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/screw_ie8%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/source_map_options-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/Uglifier/uglifyjs_source-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/lib/page-es5_js.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/lib/page-split_js.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/page-CHANGELOG_md.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/page-CONTRIBUTING_md.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/page-LICENSE_txt.ri
-/usr/lib64/ruby/gems/2.2.0/doc/uglifier-2.7.2/ri/page-README_md.ri
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/.document
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/.gitignore
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/.gitmodules
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/.rspec
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/.rubocop.yml
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/.travis.yml
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/CHANGELOG.md
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/CONTRIBUTING.md
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/Gemfile
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/LICENSE.txt
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/README.md
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/Rakefile
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/gemfiles/alaska
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/gemfiles/rubyracer
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/gemfiles/rubyrhino
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/lib/es5.js
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/lib/split.js
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/lib/uglifier.rb
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/lib/uglifier/version.rb
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/lib/uglify.js
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/spec/source_map_spec.rb
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/spec/spec_helper.rb
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/spec/uglifier_spec.rb
-/usr/lib64/ruby/gems/2.2.0/gems/uglifier-2.7.2/uglifier.gemspec
-/usr/lib64/ruby/gems/2.2.0/specifications/uglifier-2.7.2.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/uglifier-2.7.2.gem
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/.document
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/.gitignore
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/.gitmodules
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/.rspec
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/.rubocop.yml
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/.travis.yml
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/CHANGELOG.md
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/CONTRIBUTING.md
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/Gemfile
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/LICENSE.txt
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/README.md
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/Rakefile
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/gemfiles/alaska
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/gemfiles/rubyracer
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/gemfiles/rubyrhino
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/lib/es5.js
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/lib/split.js
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/lib/uglifier.rb
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/lib/uglifier/version.rb
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/lib/uglify.js
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/spec/source_map_spec.rb
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/spec/spec_helper.rb
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/spec/uglifier_spec.rb
+/usr/lib64/ruby/gems/2.3.0/gems/uglifier-2.7.2/uglifier.gemspec
+/usr/lib64/ruby/gems/2.3.0/specifications/uglifier-2.7.2.gemspec
