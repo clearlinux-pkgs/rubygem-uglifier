@@ -4,7 +4,7 @@
 #
 Name     : rubygem-uglifier
 Version  : 2.7.2
-Release  : 7
+Release  : 8
 URL      : https://rubygems.org/downloads/uglifier-2.7.2.gem
 Source0  : https://rubygems.org/downloads/uglifier-2.7.2.gem
 Summary  : No detailed summary available
